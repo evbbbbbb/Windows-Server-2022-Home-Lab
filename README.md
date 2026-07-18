@@ -8,13 +8,24 @@ This project demonstrates the setup and management of an enterprise-style Window
 
 ##Lab components
 
-###DC01
--Windows Server 2022
--Active Directory Domain Services
--DNS
+| Hostname | Operating System | Role |
+|----------|------------------|------|
+| DC01 | Windows Server 2022 | Domain Controller, DNS |
+| CLIENT01 | Windows 10 | Domain Joined Workstation |
+| ClIENT02 | Windows 11 | Domain Joined Workstation |
+
+##Completed
+
+-Installed Windows Server 2022
+-Promoted DC01 to a Domain Controller
+-Created the 'corp.local' Active Directory domain
+-Created Organizational Units for users, groups, computers, servers, and service accounts
+-Created security groups and test users
+-Joined CLIENT01 (Windows 10) to the domain
+-Joined CLIENT02 (Windows 11) to the domain
+
 
 ###Future Systems
--CLIENT01 - Windows workstation joined to the domain
 -SRV01 - Additional server roles
 
 ##Skills Practiced
@@ -27,6 +38,3 @@ This project demonstrates the setup and management of an enterprise-style Window
 -PowerShell automation
 -Windows security hardening
 
-##Progress
-
-Currently building the initial domain controller.
