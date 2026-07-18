@@ -16,13 +16,13 @@ This project demonstrates the setup and management of an enterprise-style Window
 
 ##Completed
 
--Installed Windows Server 2022
--Promoted DC01 to a Domain Controller
--Created the 'corp.local' Active Directory domain
--Created Organizational Units for users, groups, computers, servers, and service accounts
--Created security groups and test users
--Joined CLIENT01 (Windows 10) to the domain
--Joined CLIENT02 (Windows 11) to the domain
+- Installed Windows Server 2022
+- Promoted DC01 to a Domain Controller
+- Created the 'corp.local' Active Directory domain
+- Created Organizational Units for users, groups, computers, servers, and service accounts
+- Created security groups and test users
+- Joined CLIENT01 (Windows 10) to the domain
+- Joined CLIENT02 (Windows 11) to the domain
 
 
 ###Future Systems
@@ -30,11 +30,11 @@ This project demonstrates the setup and management of an enterprise-style Window
 
 ##Skills Practiced
 
--Active Directory administration
--User and group management
--DNS configuration
--DHCP configuration
--Group Policy
--PowerShell automation
--Windows security hardening
+- Active Directory administration
+- User and group management
+- DNS configuration
+- DHCP configuration
+- Group Policy
+- PowerShell automation
+- Windows security hardening
 
