@@ -1,26 +1,25 @@
 # Network Design
 
-...
+```
+                    corp.local
 
-                      corp.local
+                  +-----------+
+                  |   DC01    |
+                  | Server2022|
+                  | AD DS/DNS |
+                  +-----------+
+                      |
+        -----------------------------
+        |                           |
++----------------+          +----------------+
+|   CLIENT01     |          |   CLIENT02     |
+|   Windows 10   |          |   Windows 11   |
+| Domain Joined  |          | Domain Joined  |
++----------------+          +----------------+
+```
 
-                    +------------+
-                    |     DC01   |
-                    | Server2022 |
-                    | AD DS/DNS  |
-                    +------------+
-                        |
-      -------------------------------------
-      |                                   |
-  +-----------------+          +------------------+        
-  |  CLIENT01       |          |   CLIENT02       |
-  |  Windows 10     |          |   Windows 11     |
-  | Domain Joined   |          |  Domain Joined   |
-  +-----------------+          +------------------+
-  ...
+Current Components
 
-  Current Components
-
-  - Active Directory Domain Services
-  - DNS
-  - Two domain-joined Windows workstations
+- Active Directory Domain Services
+- DNS
+- Two domain-joined Windows workstations
