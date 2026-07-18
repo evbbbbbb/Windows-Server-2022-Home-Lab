@@ -1,12 +1,12 @@
-#Windows Server 2022 Active Directory Home Lab
+# Windows Server 2022 Active Directory Home Lab
 
-##Description
+## Description
 
 A personal cybersecurity and system administration lab built using Oracle VirtualBox and Windows Server 2022.
 
 This project demonstrates the setup and management of an enterprise-style Windows environment.
 
-##Lab components
+## Lab components
 
 | Hostname | Operating System | Role |
 |----------|------------------|------|
@@ -14,7 +14,7 @@ This project demonstrates the setup and management of an enterprise-style Window
 | CLIENT01 | Windows 10 | Domain Joined Workstation |
 | ClIENT02 | Windows 11 | Domain Joined Workstation |
 
-##Completed
+## Completed
 
 - Installed Windows Server 2022
 - Promoted DC01 to a Domain Controller
@@ -25,10 +25,10 @@ This project demonstrates the setup and management of an enterprise-style Window
 - Joined CLIENT02 (Windows 11) to the domain
 
 
-###Future Systems
+### Future Systems
 -SRV01 - Additional server roles
 
-##Skills Practiced
+## Skills Practiced
 
 - Active Directory administration
 - User and group management
