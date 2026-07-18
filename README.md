@@ -26,7 +26,7 @@ This project demonstrates the setup and management of an enterprise-style Window
 
 
 ### Future Systems
--SRV01 - Additional server roles
+- SRV01 - Additional server roles
 
 ## Skills Practiced
 
