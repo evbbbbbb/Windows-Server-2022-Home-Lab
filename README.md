@@ -12,7 +12,7 @@ This project demonstrates the setup and management of an enterprise-style Window
 |----------|------------------|------|
 | DC01 | Windows Server 2022 | Domain Controller, DNS |
 | CLIENT01 | Windows 10 | Domain Joined Workstation |
-| ClIENT02 | Windows 11 | Domain Joined Workstation |
+| CLIENT02 | Windows 11 | Domain Joined Workstation |
 
 ## Completed
 
